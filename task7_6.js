@@ -3,14 +3,17 @@
 let i=1;
 
 while (i <= 50) { 
-    if ((i % 5 == 0) & (i % 3 == 0)) {
+
+      if ((i % 5 == 0) & (i % 3 == 0)) {
     console.log('JavaScript');
-    }    else if ( i % 5 == 0) {
+
+    } else if (i % 5 == 0) {
     console.log('Script');
-    }    else if (i % 3 == 0) {
+
+    } else if (i % 3 == 0) {
     console.log('Java');
-    }    
-    else {
+
+    } else {
     console.log(i);
     }
     i++;        
