@@ -1,8 +1,9 @@
-let x=30;
+let x=31;
 
-  while(x < 40) {    
-  x++;
+  while(x < 40) {
+    console.log(x);
+  x=x+2;
 
-  if (x % 2 ==0) continue;
-  console.log(x);
+  // if (x % 2 ==0) continue;
+  
 }
